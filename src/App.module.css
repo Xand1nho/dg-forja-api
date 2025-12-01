@@ -1,0 +1,15 @@
+.Title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.cardImg{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 400px;
+  height: auto;
+
+}
