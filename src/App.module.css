@@ -1,15 +1,31 @@
 .Title{
-  display: flex;
-  justify-content: center;
+  color: aqua;
+  font-size: 2rem;
+  text-shadow: 1.5px 4.5px 5px #ff0000;
+  letter-spacing: 10px;
   text-align: center;
-
+  margin-top: 2rem;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, sans-serif;
 }
 
 .cardImg{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  flex-direction: row;
-  width: 400px;
-  height: auto;
+  border-radius: 40px;
 
+}
+
+.cardImg:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+
+@media (width >= 768px){
+  .Title{
+    font-size: 4rem; 
+  }
 }

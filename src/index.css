@@ -1,5 +1,4 @@
-*{
-  padding: 0;
+*{padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -8,4 +7,30 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('Mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input{
+  padding: 0;
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid #ff0000;
+}
+
+
+
+@media (width >= 768px){
+  body{
+    background-image: url('DesktopWb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+  }input{
+    width: 300px;
+    font-size: 18px;
+  }
 }
