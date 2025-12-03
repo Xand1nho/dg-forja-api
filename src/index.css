@@ -1,14 +1,18 @@
+
 *{padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('Mobile.jpg');
+  flex-direction: column;
+  background-image: url('/Mobile.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
